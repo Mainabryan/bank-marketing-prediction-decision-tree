@@ -1,13 +1,13 @@
 # bank-marketing-prediction-decision-tree
 Bank Marketing Prediction using Decision Tree
 
-🔍 Problem Statement
+#🔍 Problem Statement
 
 Can we predict whether a customer will subscribe to a term deposit offer based on their demographic and behavioral information?
 
 This project builds a Decision Tree classifier to predict customer responses using real-world marketing campaign data from a Portuguese bank.
 
-📁 Dataset Overview
+#📁 Dataset Overview
 
 Source: UCI Bank Marketing Dataset
 
@@ -17,7 +17,7 @@ Features: Age, Job, Marital Status, Education, Balance, Loan Status, Campaign In
 
 Target Variable: y — whether the customer subscribed (yes) or not (no)
 
-📊 Features Used
+#📊 Features Used
 
 Some features were dropped due to:
 
@@ -25,17 +25,17 @@ High potential for data leakage (duration)
 
 Low predictive value (contact, default, day, etc.)
 
-Final Features Used:
+#Final Features Used:
 
 age, marital, education, balance, housing, loan, month, campaign, pdays, previous, poutcome, etc.
 
-Preprocessing:
+#Preprocessing:
 
 Categorical features were encoded using OneHotEncoder
 
 A Pipeline combined preprocessing + model training
 
-🧠 Model
+#🧠 Model
 
 Algorithm: Decision Tree Classifier (Scikit-learn)
 
@@ -45,17 +45,17 @@ Split: 80% training / 20% testing
 
 Tools: Pandas, Scikit-learn, Matplotlib
 
-🌟 Results
+#🌟 Results
 
 Accuracy: (Fill in your result)
 
-Insights:
+#Insights:
 
 Most influential features: (e.g., balance, housing, previous outcomes)
 
 Model interpretable via decision paths
 
-📘 What I Learned
+#📘 What I Learned
 
 Real-world data preprocessing and cleanup
 
@@ -65,22 +65,22 @@ Visualizing tree-based models with plot_tree
 
 Understanding feature importance
 
-📢 Shareable Version
+#📢 Shareable Version
 
 This project is also shared visually on LinkedIn using a custom Canva template.
 
-💼 How to Run
+#💼 How to Run
 
 pip install -r requirements.txt
 jupyter notebook notebooks/bank_tree_model.ipynb
 
-🔗 Links
+#🔗 Links
 
 Dataset: UCI Bank Marketing Data
 
 Visual Post: (Link to your LinkedIn or Canva post)
 
-✅ Next Steps
+#✅ Next Steps
 
 Test with Random Forest or Gradient Boosting
 
@@ -88,6 +88,6 @@ Perform hyperparameter tuning
 
 Deploy via Streamlit or Flask
 
-© License
+#© License
 
 MIT License (or choose another as you prefer)
